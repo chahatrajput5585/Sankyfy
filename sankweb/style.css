@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    letter-spacing: .4px;
+  }
+  
+
+  
+  /* #header{
+      width: 100%;
+      height: 100vh;
+      background-image: url("back.png");
+      background-size: cover;
+      background-position: center; 
+      background-position: center;
+  } */
+  
+  /* .container{
+      
+      
+  } */
+  
+  nav{
+      display: flex;
+      align-items: center;
+      justify-content:space-between ;
+      flex-wrap: wrap;
+      height: 60px;
+      
+      background-color: black;
+      
+  }
+  
+  .classs{
+      width: 140px;
+      font-size: 2rem;
+      margin-left: 150px;
+      color: rgb(142, 142, 216);
+  }
+  
+  nav ul li{
+      display: inline-block;
+      list-style: none;
+      margin: 10px 20px;
+      margin-right: 50px;
+  }
+  
+  nav ul li a{
+      color: aliceblue;
+      text-decoration: none;
+      font-size: 18px;
+  }
+
+  .header-text{
+    /* margin-top: 7%; */
+    font-size: 2rem;
+    color:rgb(5, 5, 77);
+    /* margin-left: 10px; */
+    height: 100vh;
+    width: 100%;
+    /* background-color: blueviolet; */
+    background-image: url("https://wallpaperaccess.com/full/1393591.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#element{
+    color: black;
+    /* margin-top: 50px; */
+}
+
+.header-textt{
+    display: flex;
+    /* margin-top: %; */
+    font-size: 20px;
+    margin-bottom: 200px;
+}
+
+.box1{
+  height: 300px;
+  width: 300px;
+  background-color: rgb(157, 157, 215);
+  border-radius: 15px;
+  margin-left: 130px;
+  margin-top: 5%;
+}
+
+.img1{
+  margin-left: 25px;
+  margin-top: 10px;
+ 
+}
+
+.bnt{
+  background-color: rgb(117, 117, 121);
+  color: black;
+  font-size: 2rem;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-left: 30px;
+  
+}
+
+.box2{
+  height: 300px;
+  width: 300px;
+  background-color: rgb(157, 157, 215);
+  border-radius: 15px;
+  margin-left: 50px;
+  margin-top: 5%;
+}
+
+.bnt2{
+  background-color: rgb(117, 117, 121);
+  color: black;
+  font-size: 2rem;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.hand{
+    margin-left: 50px;
+   
+}
+
+.aboutt{
+    height: 500px;
+    width: 100%;
+    /* background-image:url("Create.png"); */
+    background-color: rgb(219, 219, 237);
+    /* background-size: cover; */
+    display: flex;
+}
+
+.ab-11{
+    margin-top: 80px;
+    margin-left: 100px;
+    height: 200px;
+    width: 600px;
+    /* background-color: rgb(159, 122, 193); */
+}
+
+.ab-22{
+    height: 400px;
+    width: 600px;
+    /* margin-left: 100px; */
+    margin-right: 30px;
+    margin-top: 50px;
+    background-image:url("https://www.etutorialspoint.com/images/article_images/add_googlemap_on_website.jpg");
+    background-size: cover;
+    background-position: center;
+  
+}
+
+#mainn{
+    padding:30px 0px;
+    background-color: white;
+}
+
+.sub-title{
+    color:rgb(67, 2, 67);
+    margin-left: 17px;
+}
+
+.row-1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap:40px;
+    margin-top: 50px;
+}
+
+.row-1 div{
+    background-color:rgb(224, 226, 245);
+    padding:40px;
+    margin-left: 20px;
+    margin-right :20px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 15px;
+}
+
+
+.row-1 div p i{
+    font-size: 1.5rem;
+    margin-right: 10px;
+    
+}
+
+.row-1 div i{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.row-1 div h1{
+    font-size: 30px;
+    font-weight:500;
+    margin-bottom: 15px;
+}
+
+.row-1 div a{
+    text-decoration: none;
+    color: blue;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 360px;
+    display: inline-block;
+}
+
+.row-1 div a:hover{
+    color: brown;
+}
+
+
+
+.row-1 div:hover{
+    
+    transform: scale(1.1);
+    
+    
+    /*transform: translateX(20px);*/
+}
+
+footer{
+    background-color:black;
+    color: white;
+}
+.newsletter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+.newsl-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-right: 20px;
+    font-weight: 600;
+}
+.newsletter pre{
+    margin: 0;
+}
+.newsletter .formm{
+    display: flex;
+}
+.newsletter .formm input{
+    border: 2px solid rgb(247, 242, 242);
+    padding: 15px 180px 15px 20px;
+    border-radius: 20px;
+    
+}
+
+.btunn{
+    width: 10%;
+    height: 50px;
+    margin-left: 10px;
+    padding: 9px 9px;
+    border: 1px solid green;
+    color: white;
+    background-color:green;
+    border-radius: 20px;
+
+}
+.newsletter .formm .di{
+    border: 2px solid rgb(245, 242, 242);
+    padding:0 20px 0 10px ;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(242, 238, 238);
+}
+
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.foot h6{
+    font-weight: 900;
+}
+.foot li{
+    list-style: none;
+    cursor: pointer;
+}
+.foot ul{
+    padding: 0;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.social{
+    align-items: center;
+}
+.follow i{
+    font-size: 30px;
+    cursor: pointer;
+}
